@@ -1,87 +1,83 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>ent</groupId>
-	<artifactId>ent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ent</groupId>
+    <artifactId>ent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
 
-	<dependencies>
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>18.0</version>
-		</dependency>
+        <!-- https://mvnrepository.com/artifact/java_cup/java_cup -->
+        <dependency>
+            <groupId>java_cup</groupId>
+            <artifactId>java_cup</artifactId>
+            <version>0.9e</version>
 
-		<!-- https://mvnrepository.com/artifact/java_cup/java_cup -->
-		<dependency>
-			<groupId>java_cup</groupId>
-			<artifactId>java_cup</artifactId>
-			<version>0.9e</version>
-		</dependency>
+        </dependency>
 
+        <!-- https://mvnrepository.com/artifact/de.jflex/jflex -->
+        <dependency>
+            <groupId>de.jflex</groupId>
+            <artifactId>jflex</artifactId>
+            <version>1.8.2</version>
+        </dependency>
 
-		<!-- /Users/christianlutticke/Documents/ent/lib/./jflex.jar -->
-		<!-- SHA1: aa2b9fa600b9df1a97edc4b53a56d2c2c6a0ff74 -->
-		<dependency>
-			<groupId>unknown</groupId>
-			<artifactId>jflex</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>src/main/resources/lib/jflex.jar</systemPath>
-		</dependency>
+        <!-- /Users/christianlutticke/Documents/ent/lib/./ppg.jar -->
+        <!-- SHA1: 03e1ef191b4b4d76978df17a21f8da77915026c1 -->
+        <dependency>
+            <groupId>unknown</groupId>
+            <artifactId>ppg</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>src/main/resources/lib/ppg.jar</systemPath>
+        </dependency>
 
-		<!-- /Users/christianlutticke/Documents/ent/lib/./ppg.jar -->
-		<!-- SHA1: 03e1ef191b4b4d76978df17a21f8da77915026c1 -->
-		<dependency>
-			<groupId>unknown</groupId>
-			<artifactId>ppg</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>src/main/resources/lib/ppg.jar</systemPath>
-		</dependency>
+        <!-- /Users/christianlutticke/Documents/ent/lib/./pth.jar -->
+        <!-- SHA1: 58eda184a819e6182f0844f86089428bce9a8c19 -->
+        <dependency>
+            <groupId>unknown</groupId>
+            <artifactId>pth</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>src/main/resources/lib/pth.jar</systemPath>
+        </dependency>
 
-		<!-- /Users/christianlutticke/Documents/ent/lib/./pth.jar -->
-		<!-- SHA1: 58eda184a819e6182f0844f86089428bce9a8c19 -->
-		<dependency>
-			<groupId>unknown</groupId>
-			<artifactId>pth</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>src/main/resources/lib/pth.jar</systemPath>
-		</dependency>
+        <!-- /Users/christianlutticke/Documents/ent/lib/./polyglot.jar -->
+        <!-- SHA1: 3b51a3bac9b2d5800eec919392e2e82bbd40a21e -->
+        <dependency>
+            <groupId>unknown</groupId>
+            <artifactId>polyglot</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>src/main/resources/lib/polyglot.jar</systemPath>
+        </dependency>
 
-		<!-- /Users/christianlutticke/Documents/ent/lib/./polyglot.jar -->
-		<!-- SHA1: 3b51a3bac9b2d5800eec919392e2e82bbd40a21e -->
-		<dependency>
-			<groupId>unknown</groupId>
-			<artifactId>polyglot</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>src/main/resources/lib/polyglot.jar</systemPath>
-		</dependency>
+      <!--  &lt;!&ndash; /Users/christianlutticke/Documents/ent/lib/./ent.jar &ndash;&gt;
+        &lt;!&ndash; SHA1: 78785d80e2e102ec69f474564656a5e55aa5e855 &ndash;&gt;
+        <dependency>
+            <groupId>unknown</groupId>
+            <artifactId>ent</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>src/main/resources/lib/ent.jar</systemPath>
+        </dependency>-->
 
-		<!-- /Users/christianlutticke/Documents/ent/lib/./ent.jar -->
-		<!-- SHA1: 78785d80e2e102ec69f474564656a5e55aa5e855 -->
-		<dependency>
-			<groupId>unknown</groupId>
-			<artifactId>ent</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>src/main/resources/lib/ent.jar</systemPath>
-		</dependency>
+        <!-- /Users/christianlutticke/Documents/ent/lib/./ent-rt.jar -->
+        <!-- SHA1: a8d6bf1968629783276b9abaa3fe3aaae0200129 -->
+       <!-- <dependency>
+            <groupId>unknown</groupId>
+            <artifactId>ent-rt</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>src/main/resources/lib/ent-rt.jar</systemPath>
+        </dependency>-->
 
-		<!-- /Users/christianlutticke/Documents/ent/lib/./ent-rt.jar -->
-		<!-- SHA1: a8d6bf1968629783276b9abaa3fe3aaae0200129 -->
-		<dependency>
-			<groupId>unknown</groupId>
-			<artifactId>ent-rt</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>src/main/resources/lib/ent-rt.jar</systemPath>
-		</dependency>
-
-	</dependencies>
+    </dependencies>
 </project>

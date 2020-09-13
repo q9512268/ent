@@ -12,19 +12,14 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
     <orderEntry type="library" name="Maven: java_cup:java_cup:0.9e" level="project" />
-    <orderEntry type="module-library">
-      <library name="Maven: unknown:jflex:1.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/jflex.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: de.jflex:jflex:1.8.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.vbmacher:java-cup-runtime:11b-20160615" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant:1.10.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.10.5" level="project" />
     <orderEntry type="module-library">
       <library name="Maven: unknown:ppg:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/ppg.jar!/" />
+          <root url="jar://src/main/resources/lib/ppg.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -33,7 +28,7 @@
     <orderEntry type="module-library">
       <library name="Maven: unknown:pth:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/pth.jar!/" />
+          <root url="jar://src/main/resources/lib/pth.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -42,34 +37,7 @@
     <orderEntry type="module-library">
       <library name="Maven: unknown:polyglot:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/polyglot.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Maven: unknown:ent:1.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/ent.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Maven: unknown:ent-rt:1.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/ent-rt.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Maven: unknown:android:1.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/android.jar!/" />
+          <root url="jar://src/main/resources/lib/polyglot.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
