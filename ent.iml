@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="Maven: java_cup:java_cup:0.9e" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: unknown:jflex:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jflex.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: unknown:ppg:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/ppg.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: unknown:pth:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/pth.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: unknown:polyglot:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/polyglot.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: unknown:ent:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/ent.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: unknown:ent-rt:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/ent-rt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: unknown:android:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/android.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

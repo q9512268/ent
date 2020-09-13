@@ -83,18 +83,5 @@
 			<systemPath>${project.basedir}/lib/ent-rt.jar</systemPath>
 		</dependency>
 
-		<!-- /Users/christianlutticke/Documents/ent/lib/./android.jar -->
-		<!-- SHA1: eee3e49de0e3c71c5f278ba7e4fe847483f9084c -->
-		<dependency>
-			<groupId>unknown</groupId>
-			<artifactId>android</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/android.jar</systemPath>
-		</dependency>
-
-
-
 	</dependencies>
-
 </project>

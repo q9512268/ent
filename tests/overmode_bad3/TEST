@@ -1,3 +1,0 @@
-// Test: Checks that an overmoded (method waterfall invariant) method with a more restrictive 
-// (higher) mode errors from an otherwise valid (class waterfall invariant) calling context
-// when the overmoded method accepts a mode type parameter.

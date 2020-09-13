@@ -1,3 +1,0 @@
-// main: A
-// Test: Checks that co-change snapshot passes at runtime if the snapshotted 
-// object returns a mode type within the snapshot bounds.

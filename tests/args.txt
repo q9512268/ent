@@ -1,1 +1,0 @@
-Using entc with -d build -morepermissivecasts snapshot_pass1/A.java snapshot_pass1/B.java

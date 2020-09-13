@@ -1,3 +1,0 @@
-// main: B
-// Test: Checks that snapshot passes at runtime if the snapshotted object returns a mode type
-// within the snapshot bounds.
