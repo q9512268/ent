@@ -10,3 +10,4 @@ tests/dacapo/
 tests/build/
 
 tags
+/target/

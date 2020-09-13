@@ -9,26 +9,19 @@
 
 
 	<dependencies>
-		<!-- /Users/christianlutticke/Documents/ent/lib/./guava-18.0.jar -->
-		<!-- SHA1: cce0823396aa693798f8882e64213b1772032b09 -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>18.0</version>
 		</dependency>
 
-
-
-		<!--Unfound dependencies -->
-		<!-- /Users/christianlutticke/Documents/ent/lib/./java_cup.jar -->
-		<!-- SHA1: 5953c90976e2c4798f9763f7c5180441c0ba7fca -->
+		<!-- https://mvnrepository.com/artifact/java_cup/java_cup -->
 		<dependency>
-			<groupId>unknown</groupId>
+			<groupId>java_cup</groupId>
 			<artifactId>java_cup</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/java_cup.jar</systemPath>
+			<version>0.9e</version>
 		</dependency>
+
 
 		<!-- /Users/christianlutticke/Documents/ent/lib/./jflex.jar -->
 		<!-- SHA1: aa2b9fa600b9df1a97edc4b53a56d2c2c6a0ff74 -->
