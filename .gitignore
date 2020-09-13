@@ -5,9 +5,12 @@ classes/
 .*.swp
 *.log
 *.results
+*.iml
 
 tests/dacapo/
 tests/build/
 
 tags
 /target/
+
+.idea

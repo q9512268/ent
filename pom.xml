@@ -30,7 +30,7 @@
 			<artifactId>jflex</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/jflex.jar</systemPath>
+			<systemPath>src/main/resources/lib/jflex.jar</systemPath>
 		</dependency>
 
 		<!-- /Users/christianlutticke/Documents/ent/lib/./ppg.jar -->
@@ -40,7 +40,7 @@
 			<artifactId>ppg</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/ppg.jar</systemPath>
+			<systemPath>src/main/resources/lib/ppg.jar</systemPath>
 		</dependency>
 
 		<!-- /Users/christianlutticke/Documents/ent/lib/./pth.jar -->
@@ -50,7 +50,7 @@
 			<artifactId>pth</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/pth.jar</systemPath>
+			<systemPath>src/main/resources/lib/pth.jar</systemPath>
 		</dependency>
 
 		<!-- /Users/christianlutticke/Documents/ent/lib/./polyglot.jar -->
@@ -60,7 +60,7 @@
 			<artifactId>polyglot</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/polyglot.jar</systemPath>
+			<systemPath>src/main/resources/lib/polyglot.jar</systemPath>
 		</dependency>
 
 		<!-- /Users/christianlutticke/Documents/ent/lib/./ent.jar -->
@@ -70,7 +70,7 @@
 			<artifactId>ent</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/ent.jar</systemPath>
+			<systemPath>src/main/resources/lib/ent.jar</systemPath>
 		</dependency>
 
 		<!-- /Users/christianlutticke/Documents/ent/lib/./ent-rt.jar -->
@@ -80,7 +80,7 @@
 			<artifactId>ent-rt</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/ent-rt.jar</systemPath>
+			<systemPath>src/main/resources/lib/ent-rt.jar</systemPath>
 		</dependency>
 
 	</dependencies>
