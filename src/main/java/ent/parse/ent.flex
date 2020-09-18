@@ -1,10 +1,10 @@
 /*
- * Ent scanner for JFlex. 
+ * Ent scanner for JFlex.
  *
  * This file is part of the Polyglot extensible compiler framework.
  *
  * Copyright (c) 2000-2013 Polyglot project group, Cornell University
- * 
+ *
  */
 
 package ent.parse;
@@ -118,15 +118,16 @@ import java.util.Set;
         keywords.put("while",         new Integer(sym.WHILE));
 
         // Ent Specific Keywords
-        keywords.put("modes",         new Integer(sym.MODES));
-        keywords.put("attributor",    new Integer(sym.ATTRIBUTOR));
-        keywords.put("ent_copy",      new Integer(sym.COPY));
-        keywords.put("snapshot",      new Integer(sym.SNAPSHOT));
-        keywords.put("snapshotforce", new Integer(sym.SNAPSHOTFORCE));
-        keywords.put("mcase",         new Integer(sym.MCASE));
-        keywords.put("modesafe",      new Integer(sym.MODESAFE));
-        keywords.put("overmode",      new Integer(sym.OVERMODE));
-        
+        keywords.put("modes",           new Integer(sym.MODES));
+        keywords.put("attributor",      new Integer(sym.ATTRIBUTOR));
+        keywords.put("attributorscale", new Integer(sym.ATTRIBUTORSCALE));
+        keywords.put("ent_copy",        new Integer(sym.COPY));
+        keywords.put("snapshot",        new Integer(sym.SNAPSHOT));
+        keywords.put("snapshotforce",   new Integer(sym.SNAPSHOTFORCE));
+        keywords.put("mcase",           new Integer(sym.MCASE));
+        keywords.put("modesafe",        new Integer(sym.MODESAFE));
+        keywords.put("overmode",        new Integer(sym.OVERMODE));
+
     }
 
     @Override
@@ -164,7 +165,7 @@ import java.util.Set;
     private String removeUnderscores(String s) {
         return s.replaceAll("_", "");
     }
-    
+
     private Token int_lit(String s, int radix) {
         s = removeUnderscores(s);
         BigInteger x = new BigInteger(s, radix);
@@ -340,15 +341,15 @@ DecimalFloatingPointLiteral = {Digits} "." {Digits}? {ExponentPart}? {FloatTypeS
                      | "." {Digits} {ExponentPart}? {FloatTypeSuffix}?
                      | {Digits} {ExponentPart} {FloatTypeSuffix}?
                      | {Digits} {ExponentPart}? {FloatTypeSuffix}
-                     
+
 ExponentPart = [eE] {SignedInteger}
 SignedInteger = [-+]? {Digits}
 
 HexadecimalFloatingPointLiteral = {HexSignificand} {BinaryExponent} {FloatTypeSuffix}?
-                     
-HexSignificand = {HexNumeral} 
-               | {HexNumeral} "." 
-               | 0 [xX] {HexDigits}? "." {HexDigits}  
+
+HexSignificand = {HexNumeral}
+               | {HexNumeral} "."
+               | 0 [xX] {HexDigits}? "." {HexDigits}
 
 BinaryExponent = [pP] {SignedInteger}
 FloatTypeSuffix = [fFdD]
